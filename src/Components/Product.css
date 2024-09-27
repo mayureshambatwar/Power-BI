@@ -1,0 +1,73 @@
+
+.bonusboxes {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin: auto;
+  }
+  
+  .grayboxes {
+    height: 250px;
+    width: 550px;
+    border-radius: 10px;
+    background-color: #eeeeee;
+    position: relative;
+    margin: 18px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .grayboxes p {
+    font-family: Arial, sans-serif;
+    width: auto;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0px 17px;
+    margin-top: 10px;
+  }
+  
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    padding-top: 30px;
+  }
+  
+  .bonusbox1 {
+    position: absolute;
+    top: -25px;
+    right: 38%;
+    height: 40px;
+    width: 150px;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: 700;
+    color: yellow;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .worthbox1 {
+    border-radius: 7px;
+    margin: auto;
+    height: 45px;
+    width: 230px;
+    border: 2px solid rgb(52, 1, 91);
+    text-align: center;
+    margin: 15px auto;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: rgb(52, 1, 91);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
